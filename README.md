@@ -1,4 +1,4 @@
 "# portfolio" 
 
 
-![alt text](https://github.com/[ezekielnizamani]/[reponame]/portfolio/[master]/portfolio-preview.png?raw=true)
+![portfolio website preview](https://github.com/ezekielnizamani/portfolio/blob/master/portfolio-preview.png)
