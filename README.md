@@ -20,7 +20,7 @@
 
 * **Postgresql**
   
-# I might add use other tech on the way.
+# I might use other tech on the way.
 
 ### let's install first front and initialize it 
 
