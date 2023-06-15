@@ -18,7 +18,7 @@
 
 # For database 
 
-* **Postgresql**
+* **Mysql**
   
 # I might use other tech on the way.
 
