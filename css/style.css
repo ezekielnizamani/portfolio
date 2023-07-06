@@ -682,6 +682,23 @@ h3 {
   font-family: "Roboto", sans-serif;
   margin-bottom: 16px;
 }
+.custom-m{
+  margin-left:20px;
+  }
+@media (max-width: 416px) {
+  /* line 31, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_section_title.scss */
+  
+.custom-m{
+  margin-top: 20px;
+  margin-left: 0;
+}
+}
+@media (max-width: 767px) {
+  /* line 31, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_section_title.scss */
+  .section_title p br {
+    display: none;
+  }
+}
 
 @media (max-width: 767px) {
   /* line 31, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_section_title.scss */
