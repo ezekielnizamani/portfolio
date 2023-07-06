@@ -1,99 +1,512 @@
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hizqeel Web App developer| Coming Soon</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
+<!doctype html>
+<html class="no-js" lang="zxx">
 
-<style>
-      html{
-        font-size: 62.5%;
-      }
-      .wrapper {
-        width: 60%;
-        min-width: 37.3rem;
-        max-width: 70rem;
-        background-color: rgb(240, 101, 66);
-        text-align: center;
-        color: white;
-        padding: 1rem 2rem;
-        margin: auto;
-        transform: translate(-50%, -50%);
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        box-sizing:border-box;
-        border-radius: 5rem;
-        box-shadow: 0 10px 15px rgba(0, 0, 0,0.3);
-    }
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Jony</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    body{
-      font-size: 1.2rem;
-    }
-      .icons a{
-        color: #fff;
-     font-size: 2rem;
-    padding: 0;
-      }
-      .icons a:not(:last-child){
-        margin-right: 1rem;
-      }
-      .icons .fa-brands{
-        transition: all ease 0.5s;
-      }
-      .icons .fa-brands:hover{
-        /* color: #0072b1;         */
-        transform: scale(1.2);
-      }
-      .navbar-brand{
-        margin-left: 3rem;
-        color: rgb(240, 101, 66) !important;
-        font-size: 3rem;
-      }
-    
-      h1 span{
-        display: block;
-        font-size: 1.4rem;
-        margin-top: 2rem;
-      }
-    </style>
-  </head>
-  <body>
-    <nav style="box-shadow: 10px 5px 5px rgba(21, 19, 19,.1) !important" class="navbar fixed-top navbar-expand-lg ">
-      <div class="container-fluid">
-        <a class="navbar-brand logo" href="/" ><%= Hizqeel %></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link ">Download CV</a>
-            </li>
-          </ul>
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid ">
+                    <div class="header_bottom_border">
+                        <div class="row align-items-center">
+                            <div class="col-xl-3 col-lg-2">
+                                <div class="logo">
+                                    <a href="index.html" style="color: #DB9A64; font-size: 1.5rem;">
+                                        Hizqeel
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-7">
+                                <div class="main-menu  d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="index.html">home</a></li>
+                                            <li><a href="#services">Services</a></li>
+                                            <li><a href="#portfolio">Portfolio </a></li>
+                                            <!-- <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                                <ul class="submenu">
+                                                        <li><a href="works_details.html">work details</a></li>
+                                                        <li><a href="elements.html">elements</a></li>
+                                                </ul>
+                                            </li> -->
+                                            <li><a href="#about">about</a></li>
+                                            <!-- <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="blog.html">blog</a></li>
+                                                    <li><a href="single-blog.html">single-blog</a></li>
+                                                </ul>
+                                            </li> -->
+                                            <li><a href="#footer">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                                <div class="Appointment">
+                                    <div class="book_btn d-none d-lg-block">
+                                        <a href="#footer">Let’s Talk</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
-      </div>
-    </nav>
-    <div class="wrapper">
-      <h1>Hello👋 I am Hizqeel 🧔
-        <span>JavaScript | ReactJs | Vue js | NodeJs | MongoDB</span>
-      </h1>
-      <h2>Website Coming soon 🔜</h2>
-        <div class="icons">
-            <a href="https://github.com/ezekielnizamani" class="github"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/ezekielnizamani/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+    </header>
+    <!-- header-end -->
+
+    <!-- slider_area_start -->
+    <div class="slider_area">
+        <div class="single_slider  d-flex align-items-center slider_bg_1">
+            <div class="container">
+                <div class="row align-items-center position-relative">
+                    <div class="col-lg-9">
+                        <div class="slider_text">
+                            <h3>Hi there, I am Hizqeel <br>
+                                <span>Backend developer</span></h3>
+                        <a class="boxed-btn3-line" href="#portfolio">View Works</a>
+                        <a class="boxed-btn3-line ml-2" href="/downloads/hizqeel_resume.pdf" download="">Download CV</a>
+                        </div>
+                    </div>
+                    <!-- <div class="my_img d-none d-lg-block">
+                        <img src="img/about/my_img.png" alt="">
+                    </div> -->
+                </div>
+            </div>
+        </div>
+>>>>>>> master
     </div>
-  </body>
+    <!-- slider_area_end -->
+
+    <div class="download_area" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10">
+                    <div class="download_text">
+                        <h3>I am a backend developer who loves creating clean, simple, and unique solutions for seamless web applications.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="download_left">
+                        <p>
+                        </p>
+                        <p>I have a strong technical background as a backend developer, specializing in programming languages, frameworks, and database management. My main focus is on creating efficient and scalable backend solutions that work seamlessly. I am dedicated to writing high-quality code and optimizing performance to provide a smooth user experience.                        </p>
+                        <a href="/downloads/hizqeel_resume.pdf" class="boxed-btn3-line">Download CV</a>
+
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1 col-md-6">
+                    <div class="progress_skills">
+                        <div class="single_progress">
+                            <div class="label d-flex justify-content-between">
+                                <span>HTML</span>
+                                <span>90%</span>
+                            </div>
+                                <div class="progress">
+                                        <div class="progress-bar " role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                      </div>
+                        </div>
+                        <div class="single_progress">
+                                <div class="label d-flex justify-content-between">
+                                        <span>CSS</span>
+                                        <span>70%</span>
+                                    </div>
+                                <div class="progress">
+                                        <div class="progress-bar " role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                      </div>
+                        </div>
+                        <div class="single_progress">
+                                <div class="label d-flex justify-content-between">
+                                        <span>javascript</span>
+                                        <span>45%</span>
+                                    </div>
+                                <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                      </div>
+                        </div>
+                        <div class="single_progress">
+                            <div class="label d-flex justify-content-between">
+                                    <span>PHP</span>
+                                    <span>70%</span>
+                                </div>
+                            <div class="progress">
+                                    <div class="progress-bar " role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                  </div>
+                    </div>
+                    <div class="single_progress">
+                        <div class="label d-flex justify-content-between">
+                                <span>Laravel</span>
+                                <span>70%</span>
+                            </div>
+                        <div class="progress">
+                                <div class="progress-bar " role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                </div>
+                <div class="single_progress">
+                    <div class="label d-flex justify-content-between">
+                            <span>Node js</span>
+                            <span>70%</span>
+                        </div>
+                    <div class="progress">
+                            <div class="progress-bar " role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+            </div>
+            <div class="single_progress">
+                <div class="label d-flex justify-content-between">
+                        <span>Mysql</span>
+                        <span>70%</span>
+                    </div>
+                <div class="progress">
+                        <div class="progress-bar " role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+        </div>
+        <div class="single_progress">
+            <div class="label d-flex justify-content-between">
+                    <span>Mongodb</span>
+                    <span>70%</span>
+                </div>
+            <div class="progress">
+                    <div class="progress-bar " role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- service_area start  -->
+    <div class="service_area" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title mb-50">
+                        <h3>My Services</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/svg_icon/1.svg" alt="">
+                        </div>
+                        <h3>
+                            API Development
+                        </h3>
+                        <p>Get efficient and reliable solutions for seamless communication between different software systems</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/svg_icon/2.svg" alt="">
+                        </div>
+                        <h3>
+                            Api Integration
+                        </h3>
+                        <p>Get API integration services, enabling seamless communication and data exchange between various software systems</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/svg_icon/3.svg" alt="">
+                        </div>
+                        <h3>
+                            Custom Development
+                        </h3>
+                        <p>I create tailored solutions to meet your unique requirements. With my expertise, I can develop and deliver high-quality custom software solutions that address your specific needs and provide a seamless user experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- service_area end  -->
+
+    <!-- gallery_area start  -->
+    <div class="gallery_area" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title mb-50">
+                        <h3>Portfolio</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-10 col-lg-10">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="single_gallery">
+                                <div class="thumb">
+                                    <img src="img/gallery/1.png" alt="">
+                                </div>
+                                <div class="gallery_heading">
+                                    <span>Mobile App</span>
+                                    <a href="works_details.html"><h4>Colorlib App Project</h4></a>
+                                </div>
+                            </div>
+                            <div class="single_gallery">
+                                <div class="thumb">
+                                    <img src="img/gallery/2.png" alt="">
+                                </div>
+                                <div class="gallery_heading">
+                                    <span>Mobile App</span>
+                                    <a href="works_details.html"><h4>Colorlib App Project</h4></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="single_gallery">
+                                <div class="thumb">
+                                    <img src="img/gallery/3.png" alt="">
+                                </div>
+                                <div class="gallery_heading">
+                                    <span>Mobile App</span>
+                                    <a href="works_details.html"><h4>Colorlib App Project</h4></a>
+                                </div>
+                            </div>
+                            <div class="single_gallery">
+                                <div class="thumb">
+                                    <img src="img/gallery/4.png" alt="">
+                                </div>
+                                <div class="gallery_heading">
+                                    <span>Mobile App</span>
+                                    <a href="works_details.html"><h4>Colorlib App Project</h4></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="more_works">
+                                    <a class="boxed-btn3-line" href="#">More Works</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- gallery_area end  -->
+
+        <!-- testimonial_area  -->
+        <!-- <div class="testimonial_area ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="section_title">
+                            <h3>What Clients say</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="testmonial_active owl-carousel">
+                            <div class="single_carousel">
+                                <div class="row">
+                                    <div class="col-xl-9 col-md-9">
+                                        <div class="single_testmonial">
+                                            <p>“There are many variations of passages of Lorem Ipsum available, but the majority
+                                                have suffered alteration in some form by injected humour or randomised words
+                                                which don’t look even slightly believable. If you are going to use a passage.
+                                            </p>
+                                            <div class="testmonial_author">
+                                                <div class="thumb">
+                                                    <img src="img/case/testmonial.png" alt="">
+                                                </div>
+                                                <div class="author_name">
+                                                    <h3>Kalvin Piterson</h3>
+                                                    <span>Business Owner</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single_carousel">
+                                <div class="row">
+                                    <div class="col-xl-9 col-md-9">
+                                        <div class="single_testmonial">
+                                            <p>“There are many variations of passages of Lorem Ipsum available, but the majority
+                                                have suffered alteration in some form by injected humour or randomised words
+                                                which don’t look even slightly believable. If you are going to use a passage.
+                                            </p>
+                                            <div class="testmonial_author">
+                                                <div class="thumb">
+                                                    <img src="img/case/testmonial.png" alt="">
+                                                </div>
+                                                <div class="author_name">
+                                                    <h3>Kalvin Piterson</h3>
+                                                    <span>Business Owner</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single_carousel">
+                                <div class="row">
+                                    <div class="col-xl-9 col-md-9">
+                                        <div class="single_testmonial">
+                                            <p>“There are many variations of passages of Lorem Ipsum available, but the majority
+                                                have suffered alteration in some form by injected humour or randomised words
+                                                which don’t look even slightly believable. If you are going to use a passage.
+                                            </p>
+                                            <div class="testmonial_author">
+                                                <div class="thumb">
+                                                    <img src="img/case/testmonial.png" alt="">
+                                                </div>
+                                                <div class="author_name">
+                                                    <h3>Kalvin Piterson</h3>
+                                                    <span>Business Owner</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- /testimonial_area  -->
+    
+
+    <!-- footer start -->
+    <footer class="footer" id="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="lets_talk">
+                            <h3>Do you have any Project? <a href="#">Let’s Talk</a> </h3>
+                            <p>If you have any projects in mind, I would love to discuss and collaborate with you. Feel free to reach out and share your ideas. Together, we can create something amazing. Let's bring your vision to life!</p>
+                       
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="single_links d-flex justify-content-between align-items-center">
+                            <span>Email</span>
+                            <a href="mailto: ezekielnizamani0@gmail.com"> <i class="fa fa-google"></i> </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single_links d-flex justify-content-between align-items-center">
+                            <span>GitHub</span>
+                            <a href="#"> <i class="fa fa-github"></i> </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single_links d-flex justify-content-between align-items-center">
+                            <span>Medium</span>
+                            <a href="https://medium.com/@e20"> <i class="fa fa-medium"></i> </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single_links d-flex justify-content-between align-items-center">
+                            <span>Linkedin</span>
+                            <a href="https://www.linkedin.com/in/ezekielnizamani/"> <i class="fa fa-linkedin"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/ footer end  -->
+
+    <!-- link that opens popup -->
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"> </script>
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <!-- <script src="js/gijgo.min.js"></script> -->
+    <script src="js/slick.min.js"></script>
+
+
+
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+
+
+    <script src="js/main.js"></script>
+</body>
+
 </html>
